@@ -9,12 +9,16 @@
         <module name="aigou_basic_util" />
         <module name="aigou_config_server_1299" />
         <module name="aigou_eureka_server_7001" />
+        <module name="aigou_mp_generated" />
         <module name="aigou_plat_interface" />
         <module name="aigou_plat_service_8001" />
+        <module name="aigou_product_interface" />
+        <module name="aigou_product_service_8002" />
         <module name="aigou_zuul_server_9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aigou_plat_service" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/aigou_plat_parent/aigou_plat_service/pom.xml" />
         <option value="$PROJECT_DIR$/aigou_plat_parent/test/pom.xml" />
       </set>
     </option>

@@ -11,11 +11,26 @@
 
     <artifactId>aigou_plat_interface</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>cn.itsource.aigou</groupId>
-            <artifactId>aigou_basic_util</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+            <dependency>
+                <groupId>cn.itsource.aigou</groupId>
+                <artifactId>aigou_basic_util</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+            </dependency>
+
+            <!--不能全部引入mybatis-plus,这是要做数据操作,这里是不需要的,只需引入核心包解决错误而已-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>2.2.0</version>
+            </dependency>
     </dependencies>
 
 </project>
